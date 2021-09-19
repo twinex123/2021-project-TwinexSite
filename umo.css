@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    background: url("ressources/fond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.title{
+    color: #1E1B1A;
+    font-family: "Abril fatface", sans-serif;
+    font-size: 60px;
+    text-decoration: underline;
+}
+.para{
+    font-size: 60px;
+}
+img{
+    margin-left: 900px;
+    margin-bottom: 800px;
+    width: 350px; 
+    height: 250px; 
+    object-fit: cover; 
+}
+a{
+    border: 2px solid #1E1B1A;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 25px;
+    width: 300px;
+    color: #1E1B1A;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #1E1B1A;
+    color: #fff;
+}
